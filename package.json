@@ -1,0 +1,27 @@
+{
+  "name": "mywebpack",
+  "version": "1.0.0",
+  "description": "my own webpack",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --open"
+  },
+  "author": "lvyuning",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.0",
+    "html-webpack-plugin": "^4.5.0",
+    "html-webpack-plugins": "^3.0.0",
+    "less-loader": "^7.0.2",
+    "sass-loader": "^10.0.3",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.2",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "keywords": []
+}
